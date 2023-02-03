@@ -1,0 +1,25 @@
+@import "global/fonts.scss";
+
+
+// @import "global/form";
+
+$color--primary: #000000;
+$color--secondary: #ffffff;
+$font--primary: "PublicSans";
+$font: $font--primary;
+$content-width: 1366px;
+
+@import "global/mixins";
+@import "global/normalize";
+// @import "global/form";
+@import "global/base";
+
+
+@import "./components/welcome_page.scss";
+@import "./components/splash_screen.scss";
+@import "./components/first_screen.scss";
+@import "./components/button.scss";
+@import "./components/second_screen.scss";
+@import "./components/header.scss";
+@import "./components/third_screen.scss";
+@import "./components/final_screen.scss";

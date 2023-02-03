@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "PublicSans";
+    src        : url("../../fonts/PublicSans-Regular.ttf") format("truetype"),
+        url("../../fonts/PublicSans-Regular.otf") format("opentype");
+    font-style : normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "PublicSans";
+    src        : url("../../fonts/PublicSans-Medium.ttf") format("truetype"),
+        url("../../fonts/PublicSans-Medium.otf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "PublicSans";
+    src        : url("../../fonts/PublicSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "PublicSans";
+    src        : url("../../fonts/PublicSans-Bold.ttf") format("truetype"),
+        url("../../fonts/PublicSans-Bold.otf") format("opentype");
+    font-style : normal;
+    font-weight: 700;
+}

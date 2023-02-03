@@ -1,0 +1,131 @@
+.wrap_button_left {
+  height: 50px;
+  display: flex;
+  background-color: #0b3f47;
+  border-radius: 10px;
+  width: 217px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0 21px;
+  cursor: pointer;
+  @media (max-width: 768px) {
+    height: 40px;
+    width: 150px;
+  }
+  @media (max-width: 428px) {
+    width: 110px;
+    padding: 0 10px;
+  }
+  @media (max-width: 350px) {
+    width: 103px;
+    padding: 0 10px;
+  }
+  svg {
+    height: 30px;
+    width: 50px;
+    vertical-align: middle;
+    @media (max-width: 768px) {
+      width: 35px;
+    }
+    @media (max-width: 428px) {
+      width: 22px;
+    }
+  }
+
+  .content_button {
+    font-weight: 400;
+    font-size: 28px;
+    color: #a8edb3;
+    line-height: 32.9px;
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+    @media (max-width: 350px) {
+      font-size: 14px;
+    }
+  }
+}
+
+//button right
+
+.wrap_button_right {
+  height: 50px;
+  display: flex;
+  background-color: #0b3f47;
+  border-radius: 10px;
+  width: 217px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0 21px;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    height: 40px;
+    width: 150px;
+  }
+  @media (max-width: 428px) {
+    width: 110px;
+    padding: 0 10px;
+  }
+  @media (max-width: 350px) {
+    width: 103px;
+    padding: 0 10px;
+  }
+  svg {
+    height: 30px;
+    width: 50px;
+    vertical-align: middle;
+    @media (max-width: 768px) {
+      width: 35px;
+    }
+    @media (max-width: 428px) {
+      width: 22px;
+    }
+  }
+
+  .content_button {
+    font-weight: 400;
+    font-size: 28px;
+    color: #a8edb3;
+    line-height: 32.9px;
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+    @media (max-width: 350px) {
+      font-size: 14px;
+    }
+  }
+}
+.view_map{
+  width: 240px;
+  @media (max-width:768px) {
+    width: 165px;
+  }
+  @media (max-width:428px) {
+    width: 123px;
+  }
+}
+.next_question {
+  width: 313px;
+  padding: 0 26px;
+  @media (max-width:768px ) {
+    width: 200px;
+  }
+  @media (max-width:428px ) {
+    padding: 0 10px;
+    width: 157px;
+  }
+  @media (max-width:350px ) {
+    padding: 0 10px;
+    width: 143px;
+  }
+  .content_button{
+   span{
+    @media (max-width: 350px) {
+      font-size: 14px;
+    }
+   }
+  }
+}

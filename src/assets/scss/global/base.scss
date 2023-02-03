@@ -1,0 +1,56 @@
+::-moz-selection {
+    color: $color--secondary;
+    background: $color--primary;
+  }
+  
+  ::selection {
+    color: $color--secondary;
+    background: $color--primary;
+  }
+  
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    
+  }
+  ::placeholder{
+    opacity: 1;
+  }
+  
+  h1 {
+    
+  }
+  
+  h2 {
+    
+  }
+  
+  h3 {
+    
+  }
+  
+  h4 {
+    
+  }
+  
+  h5 {
+    
+  }
+  
+  h6 {
+    
+  }
+  
+  p, ul, li, ol, span, div, table {
+    font-family: $font;
+  }
+  
+  a {
+    font-family: $font;
+    color: $color--primary;
+    text-decoration: none;
+  }
+  
+  
